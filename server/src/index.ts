@@ -20,7 +20,7 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors({
-  origin: "https://your-amplify-app-domain.amplifyapp.com",
+  origin: "https://main.d1zicbpg6v79xo.amplifyapp.com/",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
 }));
